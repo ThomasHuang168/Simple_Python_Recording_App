@@ -1,0 +1,34 @@
+
+### Recorder settings ###
+# REC_IN_CARD: "Scarlett 2i2 USB: Audio"
+# REC_OUT_CARD: "default"
+# REC_IN_CARD: "Speakers / Headphones (Realtek "
+# REC_OUT_CARD: "Microsoft ????? - Output"
+# REC_IN_CARD: "Built-in Microphone"
+# REC_OUT_CARD: "Built-in Output"
+REC_IN_CARD: "Microsoft Sound Mapper - Input"
+REC_OUT_CARD: "Microsoft Sound Mapper - Output"
+
+# REC_CHANNELS: 1
+REC_CHANNELS: 2
+REC_RATE: 44100
+REC_CHUNK: 512  # each chunk of recording data has 512 samples
+# for 16 bit
+REC_FORMAT: pyaudio.paInt16
+
+REC_DISPLAY_BUFFER: 2000
+REC_DISPLAY_INIT_VAL: -50
+
+### Recorder GUI settings ###
+# NOTE:These pixel values are set for 1920x1080 resolution,
+#      they will be automatically scaled to fit for other resolution (width)
+
+# for button
+BTN_FONT_STYLE: "Arial"
+BTN_FONT_SIZE: 30
+BTN_W: 300  # button width
+BTN_H: 40  # button height
+X_BTN: 150  # x_pos of button
+Y_BTN: 450  # y_pos of button
+
+PATH: .
