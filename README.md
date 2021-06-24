@@ -1,7 +1,8 @@
 # Simple Python Recording App
 
-## This app allow user to read the txt.file and control the recording process in an interface
-## Tested on Ubuntu 16.04, windows 10
+This app allow user to read the txt.file and control the recording process in an interface
+Tested on Ubuntu 16.04, windows 10
+![alt text](sample.JPG "screenshot of recorder in windows 10")
 
 ### Installation
 
