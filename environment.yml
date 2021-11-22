@@ -1,0 +1,11 @@
+name: recorder
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pyyaml
+  - pyqt5-sip
+  - numpy
+  - pyqtgraph
+  - PyQt
+  - PyAudio # https://stackoverflow.com/questions/54998028/how-do-i-install-pyaudio-on-python-3-7
